@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>signin</h1>
+    <form action="" th:action="@{/signin}"  method="post" >
+        <div>
+            <label><span>id</span><input type="text" name="userId"></label>
+        </div>
+        <div>
+            <label><span>pw</span><input type="text" name="userPw"></label>
+        </div>
+        <div>
+            <label><span>name</span><input type="text" name="userName"></label>
+        </div>
+        <div>
+            <label><span>birth</span><input type="date" name="birth"></label>
+        </div>
+        <button>회원가입</button>
+    </form>
+</body>
+</html>
